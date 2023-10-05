@@ -1,0 +1,15 @@
+models:
+  - name: q2
+    description: Answer to Q2 of take home test
+    Table displaying GMV of vendors in Taiwan and customer count in descneding order
+    meta:
+      owner: jo.luhaowei@gmail.com
+    columns: 
+      - description: Name of vendor
+        name: vendor_name
+      - description: Count of customer
+        name: customer_count
+      - description: GMV calculated for each country
+        name: total_gmv
+    config:
+      labels: {"project":"LuHaoWei_submission"}

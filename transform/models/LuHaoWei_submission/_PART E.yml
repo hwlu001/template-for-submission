@@ -1,0 +1,11 @@
+models:
+  - name: part E
+    description: Answer to PART E of take home test
+    Table of Countries with GMV
+    meta:
+      owner: jo.luhaowei@gmail.com
+    columns: 
+      - description: Name of country
+        name: country_name
+    config:
+      labels: {"project":"LuHaoWei_submission"}
