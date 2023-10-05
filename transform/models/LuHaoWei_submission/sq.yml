@@ -1,0 +1,17 @@
+models:
+  - name: q4
+    description: Answer to Q4 of take home test
+    Table displays top 2 vendors in each countr
+    meta:
+      owner: jo.luhaowei@gmail.com
+    columns: 
+      - description: Reporting year
+        name: year
+      - description: Name of country
+        name: country_name
+      - description: Name of vendor
+        name: vendor_name
+      - description: GMV calculated for each country
+        name: total_gmv
+    config:
+      labels: {"project":"LuHaoWei_submission"}

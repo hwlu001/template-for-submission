@@ -1,0 +1,15 @@
+models:
+  - name: q3
+    description: Answer to Q3 of take home test
+    Table that displays top active vendor by GMV in each country
+    meta:
+      owner: jo.luhaowei@gmail.com
+    columns: 
+      - description: Name of country
+        name: country_name
+      - description: Name of vendor
+        name: vendor_name
+      - description: GMV calculated for each country
+        name: total_gmv
+    config:
+      labels: {"project":"LuHaoWei_submission"}
